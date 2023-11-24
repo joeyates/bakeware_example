@@ -19,6 +19,7 @@ defmodule BakewareExample.MixProject do
 
   defp deps do
     [
+      {:bakeware, ">= 0.0.0", runtime: false},
     ]
   end
 end
